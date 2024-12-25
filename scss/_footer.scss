@@ -1,0 +1,72 @@
+$yashil-rang: #4E9F0D;
+$oq-rang:  #FFFFFF;
+$och-yashil: #4E9F0D80;
+footer{
+    h2{
+        color: $yashil-rang;
+        font-family: Roboto;
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 42.19px;
+        text-align: center;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+    }
+    .xarita{
+        background-image: url(images/xarita.png);
+        background-size: cover; 
+        background-position: center; 
+        background-repeat: no-repeat; 
+    }
+    .footer_logo{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        p{
+            font-size: 24px;
+            font-weight: 700;
+            line-height: 28.18px;
+            text-underline-position: from-font;
+            text-decoration-skip-ink: none;
+            color: $yashil-rang;
+        }
+        img{
+            width: 160px;
+            height: 30px;
+        }
+    }
+     ul{
+        width: 800px;
+        margin: auto;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        li{
+            a{
+                font-family: Raleway;
+                font-size: 18px;
+                font-weight: 500;
+                line-height: 21.13px;
+                text-underline-position: from-font;
+                text-decoration-skip-ink: none;
+                color: $oq-rang;
+            }
+            a:hover{
+                color: $yashil-rang;
+                transition: 1s;
+            }
+        }
+     }
+     .footer_p{
+        text-align: center;
+        color: $oq-rang;
+        font-family: Raleway;
+        font-size: 16px;
+        font-weight: 100;
+        line-height: 18.78px;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        padding-top: 20px;
+        padding-bottom: 30px;
+     }
+}

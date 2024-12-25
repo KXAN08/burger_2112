@@ -1,0 +1,48 @@
+$yashil-rang: #4E9F0D;
+$oq-rang:  #FFFFFF;
+$och-yashil: #4E9F0D80;
+main{
+    background-image: url('/images/section_bg1.png'); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    height: 768px; 
+    margin-top: 85px;
+    .main_h2{
+        padding-top: 42px;
+        text-align: center;
+        color: $yashil-rang;
+        font-family: Raleway;
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 42.26px;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+     hr{
+            width: 202px;
+            height: 1px;
+            background-color: $yashil-rang;
+            border: 1px solid $yashil-rang;
+         }
+    }    
+    .p1{
+        padding-top: 42px;
+        color: $oq-rang;
+        font-family: Raleway;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 23px;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+    }
+    .p2{
+        padding-top: 25px;
+        color: $oq-rang;
+        font-family: Raleway;
+        font-size: 18px;
+        font-weight: 470;
+        line-height: 24px;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+    }
+}
